@@ -4,7 +4,10 @@
   "description": "A API first CMS written in node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:update": "jest -u",
+    "test:coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -21,5 +24,23 @@
   "bugs": {
     "url": "https://github.com/Wrought-tech/WNACMS/issues"
   },
-  "homepage": "https://github.com/Wrought-tech/WNACMS#readme"
+  "homepage": "https://github.com/Wrought-tech/WNACMS#readme",
+  "dependencies": {
+    "enzyme": "^3.0.0",
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.4.0",
+    "jest": "^21.2.1",
+    "stylelint": "^8.1.1",
+    "stylelint-formatter-pretty": "^1.0.3",
+    "stylelint-no-browser-hacks": "^1.1.0",
+    "stylelint-no-unsupported-browser-features": "^1.0.0",
+    "stylelint-order": "^0.6.0"
+  }
 }
