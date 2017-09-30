@@ -1,0 +1,25 @@
+{
+  "name": "what-not-another-cms",
+  "version": "0.0.1",
+  "description": "A API first CMS written in node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wrought-tech/WNACMS.git"
+  },
+  "keywords": [
+    "node",
+    "react",
+    "angular",
+    "cms"
+  ],
+  "author": "William Corry (@wroughtec)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wrought-tech/WNACMS/issues"
+  },
+  "homepage": "https://github.com/Wrought-tech/WNACMS#readme"
+}
